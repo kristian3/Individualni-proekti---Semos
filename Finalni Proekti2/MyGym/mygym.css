@@ -1,0 +1,974 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.glaven {
+    width: 100%;
+    height: 950px;
+    background-image: url(img/danielle-cerullo-782570-unsplash.jpg);
+    background-size: cover;  
+}
+
+.menu {
+    width: 866px;
+    height: 90px;
+    background-color:rgba(255,255,255,0.8);
+    border-radius: 0 0 15px 15px;
+    margin: auto;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.menu button {
+    list-style: none;
+    background: none;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    color: #3D3D37;
+}
+
+.menu button:hover {
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.menu-opcii {
+    width: 173px;
+    height: 100%;
+}
+.menu-opcii p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 35px 0 0 0;
+}
+.menu-opcii2 {
+    width: 173px;
+    height: 100%;
+    text-align: center;
+    background-image: url(img/21122228_243783629478083_2373555800329889254_o.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.glaven h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 300px 0 0 0;
+}
+
+.yellow {
+    color: #FCE302;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.podh1 {
+    width: 494px;
+    height: 40px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+    align-content: stretch;
+    margin: 0 auto;
+}
+
+.podh1-1 {
+    width: 35px;
+    height: 2px;
+    background-color: #FCE302;
+    margin: 20px 0 0 0;
+}
+
+.podh1-2 p {
+    font-size: 35px;
+    color: white;
+    font-weight: 400;
+}
+
+
+.glaven2 {
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around; 
+    align-items: flex-end;
+    align-content: stretch;
+}
+
+.glaven2-1 {
+    height: 552px;
+    width: 552px;
+    background-image: url(img/humphrey-muleba-1119285-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+
+.glaven2-2 {
+    height: 552px;
+    width: 552px;
+    margin-right: 250px;
+    margin-bottom: 10px;
+}
+
+.linija2-2 {
+    width: 215px;
+    height: 1px;
+    background-color: #3D3D37;
+    margin-top: 10px;
+}
+
+.glaven2-2 h2 {
+    font-size: 40px;
+    color: #3D3D37;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.glaven2-2 p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3D3D37;
+    line-height: 38px;
+    margin-top: 25px;
+}
+
+
+.glaven3 {
+    width: 100%;
+    height: 220px;
+}
+
+.glaven3linija {
+    width: 200px;
+    height: 1px;
+    margin: 0 auto;
+    padding-top: 110px;
+    border-bottom: 1px solid #3D3D37;
+}
+
+.glaven3 h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #3D3D37;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.glaven4 {
+    width: 100%;
+    height: 560px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.glaven4-1 {
+    width: 292px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #3D3D37;
+    margin-left: 240px;
+}
+.glaven4-1img {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 106px;
+    background-image: url(img/treadmill.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 25px;
+}
+
+
+
+
+
+.glaven4-2 {
+    width: 292px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #3D3D37;
+}
+.glaven4-2img {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 106px;
+    background-image: url(img/weightlifting.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 25px;
+}
+
+
+
+
+.glaven4-3 {
+    width: 292px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #3D3D37;
+    margin-right: 240px;
+}
+.glaven4-3img {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 106px;
+    background-image: url(img/diet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 25px;
+}
+
+
+.glaven4 h3 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+
+.glaven4 p {
+    font-size: 14px;
+    text-align: center;
+    color: #FCE302;
+    line-height: 38px;
+    padding-top: 35px;
+}
+
+
+.glaven5 {
+    width: 100%;
+    height: 610px;
+    background-image: url(img/glaven5.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+.glaven5-1 {
+    height: 325px;
+    width: 655px;
+    margin-left: 200px;
+    margin-bottom: 68px;
+}
+
+.glaven5-1linija {
+    width: 92px;
+    height: 1px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.glaven5 h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    padding-top: 20px;
+}
+
+.glaven5-1 ul {
+    margin: 0 auto;
+    padding: 55px 0 0 45px;
+}
+.glaven5-1 ul li {
+    color: #FCE302;
+    padding-top: 20px;
+}
+
+.glaven5-1 ul li p {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.glaven5-2 {
+    width: 398px;
+    height: 393px;
+    border-radius: 15px;
+    margin-right: 200px;
+}
+
+
+.glaven5-2 table {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-collapse:collapse;
+    margin: 0 auto;
+}
+.hours tr {
+    border-bottom: 1px solid #FCE302;
+}
+
+
+
+.prvtd {
+    padding-top: 70px;
+}
+
+.osttd {
+    padding-top: 7px;
+}
+
+
+
+
+
+
+
+.glaven6 {
+    width: 100%;
+    height: 700px;
+}
+
+.glaven7 {
+    width: 100%;
+    height: 500px;
+    background-image: url(img/Group\ 52.jpg);
+    background-position: center;
+}
+
+
+.glaven8 {
+    height: 310px;
+    width: 100%;
+    background-color: #3D3D37;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+.glaven8-1 {
+    width: 639px;
+    height: 100%;
+    text-align: center;
+}
+
+.glaven8-1 h3 {
+    font-size: 22px;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    padding-top: 61px;
+}
+
+.glaven8-11 {
+    width: 100%;
+    height: 20px;
+    padding-top: 40px;
+}
+
+.glaven8-11 span {
+    font-size: 16px;
+    color: white;
+    padding-left: 15px;
+}
+
+.glaven8-12 {
+    width: 100%;
+    height: 20px;
+    padding-top: 40px;
+    padding-right: 83px;
+}
+
+.glaven8-12 span {
+    font-size: 16px;
+    color: white;
+    padding-left: 15px;
+}
+
+.glaven8-13 {
+    width: 100%;
+    height: 20px;
+    padding-top: 40px;
+    padding-right: 8px;
+}
+
+.glaven8-13 span {
+    font-size: 16px;
+    color: white;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+.glaven8-2 {
+    width: 1px;
+    height: 228px;
+    background-color: #707070;
+}
+
+
+
+
+
+
+
+.glaven8-3 {
+    width: 639px;
+    height: 100%;
+}
+
+.glaven8-3 h3 {
+    font-size: 22px;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    padding-top: 61px;
+    text-align: center;
+}
+
+.glaven8-31 {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.glaven8-31 ul {
+    padding-left: 50px;
+    padding-top: 9px;
+}
+
+.glaven8-31 ul li p {
+    font-size: 16px;
+    color: white;
+}
+
+.glaven8-31 ul li {
+    color: #FCE302;
+    padding-top: 25px;
+}
+
+
+.glaven8-31 button {
+    list-style: none;
+    background: none;
+    font-size: 16px;
+    border: none;
+    color: white;
+}
+
+.glaven8-31 button:hover {
+    cursor: pointer;
+    color: #FCE302;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+.glaven8-4 {
+    width: 1px;
+    height: 228px;
+    background-color: #707070;
+}
+
+.glaven8-5 {
+    width: 639px;
+    height: 100%;
+}
+
+.glaven8-5 h3 {
+    font-size: 22px;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    padding-top: 61px;
+    text-align: center;
+}
+
+.glaven8-51 {
+    height: 40px;
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    margin-top: 50px;
+}
+
+.socijalnimed1 {
+    width: 40px;
+    height: 100%;
+    background-image: url(img/facebook-logo-button.png);
+}
+.socijalnimed1:hover {
+    cursor: pointer;
+}
+
+.socijalnimed2 {
+    width: 40px;
+    height: 100%;
+    background-image: url(img/snapchat.png);
+    margin: 0 36px 0 36px;
+}
+.socijalnimed2:hover {
+    cursor: pointer;
+}
+
+.socijalnimed3 {
+    width: 40px;
+    height: 100%;
+    background-image: url(img/instagram.png);
+}
+.socijalnimed3:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1620px) {
+
+
+    .glaven2-2 {
+        margin: 0 auto;
+    }
+    .glaven2-2 h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .glaven2-2 p {
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .linija2-2 {
+        width: 170px;
+        margin: 0 auto;
+    }
+    .glaven2-1 {
+        display: none;
+
+    }
+    .glaven4-1 {
+        width: 262px;
+    height: 420px;
+    }
+    .glaven4-2 {
+        width: 262px;
+        height: 420px;
+    }
+    .glaven4-3 {
+        width: 262px;
+        height: 420px;
+    }
+    .glaven4-1img {
+        margin-left: 91px;
+        margin-top: 20px;
+    }
+    .glaven4-2img {
+        margin-left: 91px;
+        margin-top: 20px;
+    }
+    .glaven4-3img {
+        margin-left: 91px;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 1360px) {
+
+    .glaven4-1 {
+        width: 232px;
+        height: 390px;
+    }
+    .glaven4-2 {
+        width: 232px;
+        height: 390px;
+    }
+    .glaven4-3 {
+        width: 232px;
+        height: 390px;
+    }
+    .glaven4-1img {
+        margin-left: 76px;
+        margin-top: 15px;
+    }
+    .glaven4-2img {
+        margin-left: 76px;
+        margin-top: 15px;
+    }
+    .glaven4-3img {
+        margin-left: 76px;
+        margin-top: 15px;
+    }
+    .glaven4 p {
+        font-size: 10px;
+        text-align: center;
+        color: #FCE302;
+        line-height: 30px;
+        padding-top: 30px;
+    }
+    .glaven4 h3 {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .glaven5-2 {
+        width: 298px;
+        height: 293px;
+        border-radius: 15px;
+        margin-right: 200px;
+    }
+    
+    
+    .glaven5-2 table {
+        font-size: 10px;
+        font-weight: 600;
+        color: white;
+        border-collapse:collapse;
+        margin: 0 auto;
+    }
+    .glaven5 h2 {
+        font-size: 20px;
+    }
+
+
+
+    .glaven5-1 {
+        height: 293px;
+        width: 455px;
+        margin-left: 250px;
+        margin-top: 70px;
+    }
+    
+    .glaven5-1linija {
+        width: 72px;
+        height: 1px;
+        background-color: white;
+        margin: 0 auto;
+    }
+    
+    .glaven5-1 ul {
+        margin: 0 auto;
+        padding: 0 0 0 75px;
+    }
+    .glaven5-1 ul li {
+        color: #FCE302;
+        padding-top: 20px;
+    }
+    
+    .glaven5-1 ul li p {
+        color: white;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .glaven3 h2 {
+        font-size: 30px;
+    }
+
+    .glaven3linija {
+        width: 150px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .glaven4-1 {
+        width: 172px;
+        height: 330px;
+    }
+    .glaven4-2 {
+        width: 172px;
+        height: 330px;
+    }
+    .glaven4-3 {
+        width: 172px;
+        height: 330px;
+    }
+    .glaven4-1img {
+        margin-left: 46px;
+        margin-top: 15px;
+    }
+    .glaven4-2img {
+        margin-left: 46px;
+        margin-top: 15px;
+    }
+    .glaven4-3img {
+        margin-left: 46px;
+        margin-top: 15px;
+    }
+    .glaven4 p {
+        font-size: 8px;
+    }
+    .glaven4 h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .glaven4-1 {
+        width: 122px;
+        height: 280px;
+    }
+    .glaven4-2 {
+        width: 122px;
+        height: 280px;
+    }
+    .glaven4-3 {
+        width: 122px;
+        height: 280px;
+    }
+    .glaven4-1img {
+        margin-left: 21px;
+        margin-top: 10px;
+    }
+    .glaven4-2img {
+        margin-left: 21px;
+        margin-top: 10px;
+    }
+    .glaven4-3img {
+        margin-left: 21px;
+        margin-top: 10px;
+    }
+    .glaven4 p {
+        font-size: 8px;
+        line-height: 20px;
+        padding-top: 20px;
+    }
+    .glaven4 h3 {
+        font-size: 12px;
+    }
+
+
+
+    .glaven5-2 {
+        width: 258px;
+        height: 253px;
+        border-radius: 15px;
+        margin-right: 200px;
+    }
+    
+    
+    .glaven5-2 table {
+        font-size: 6px;
+        font-weight: 600;
+        color: white;
+        border-collapse:collapse;
+        margin: 0 auto;
+    }
+    .glaven5 h2 {
+        font-size: 16px;
+    }
+
+
+
+    .glaven5-1 {
+        height: 253px;
+        width: 415px;
+        margin-left: 250px;
+        margin-top: 70px;
+    }
+    
+    .glaven5-1linija {
+        width: 52px;
+        height: 1px;
+        background-color: white;
+        margin: 0 auto;
+    }
+    
+    .glaven5-1 ul {
+        margin: 0 auto;
+        padding: 0 0 0 45px;
+    }
+    .glaven5-1 ul li {
+        color: #FCE302;
+        padding-top: 10px;
+    }
+    
+    .glaven5-1 ul li p {
+        color: white;
+        font-size: 6px;
+        font-weight: 600;
+    }
+
+    .prvtd {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 870px) {
+    .glaven4 {
+        display: none;
+    }
+    .glaven6 {
+        height: 500px;
+    }
+    .menu {
+        width: 100%;
+    }
+    .menu-opcii2 {
+        display: none;
+    }
+    .glaven5 {
+        display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: center;
+        align-content: stretch;
+        height: 410px;
+    
+    }
+
+    .glaven5-1 {
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+    }
+    .glaven5-2 {
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+    }
+
+    .glaven8 {
+        height: 100%;
+        width: 100%;
+        background-color: #3D3D37;
+        display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: center;
+	    align-content: stretch;
+    }
+    .glaven8-1 {
+        width: 100%;
+    }
+    .glaven8-3 {
+        width: 100%;
+    }
+    .glaven8-5 {
+        width: 100%;
+    }
+
+
+    .glaven8-2 {
+        display: none;
+    }
+    .glaven8-4 {
+        display: none
+    }
+
+    .glaven2 {
+        height: 470px;
+    }
+
+    .glaven3linija {
+        padding-top: 0;
+    }
+
+    .glaven3 {
+        height: 120px;
+    }
+    .glaven5-1linija {
+        background: none;
+    }
+
+    .linija2-2 {
+        margin-top: 20px;
+    }
+
+    .glaven2-2 {
+        height: 422px;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 600px) {
+    .glaven6 {
+        height: 350px;
+    }
+
+    .podh1-1 {
+        display: none;
+    }
+    .podh1-2 p {
+        display: none;
+    }
+    .glaven2-2 p {
+        font-size: 10px;
+    }
+
+    .podh1 {
+        display: none;
+    }
+}
+
+
+
+
+
+

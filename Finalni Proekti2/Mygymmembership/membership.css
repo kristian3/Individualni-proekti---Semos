@@ -1,0 +1,382 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.glaven {
+    width: 100%;
+    height: 770px;
+    background-image: url(imgg/victor-freitas-570027-unsplash.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+.menu {
+    width: 866px;
+    height: 90px;
+    background-color:rgba(255,255,255,0.8);
+    border-radius: 0 0 15px 15px;
+    margin: auto;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+    align-content: stretch;
+}
+
+
+.menu button {
+    list-style: none;
+    background: none;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    color: #3D3D37;
+}
+
+.menu button:hover {
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.menu-opcii {
+    width: 173px;
+    height: 100%;
+}
+.menu-opcii p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 35px 0 0 0;
+}
+.menu-opcii2 {
+    width: 173px;
+    height: 100%;
+    text-align: center;
+    background-image: url(imgg/21122228_243783629478083_2373555800329889254_o.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.ceni {
+    width: 928px;
+    height: 387px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 15px;
+    border: 3px solid #FCE302;
+    margin-top: 138px;
+    
+}
+
+.ceni table{
+    height: 80%;
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.ceni h3 {
+    font-size: 22px;
+    color: #FCE302;
+}
+
+.tr1 {
+    border-bottom: 1px solid #FCE302;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.glaven8 {
+    height: 310px;
+    width: 100%;
+    background-color: #3D3D37;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+.glaven8-1 {
+    width: 639px;
+    height: 100%;
+    text-align: center;
+}
+
+.glaven8-1 h3 {
+    font-size: 22px;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    padding-top: 61px;
+}
+
+.glaven8-11 {
+    width: 100%;
+    height: 20px;
+    padding-top: 40px;
+}
+
+.glaven8-11 span {
+    font-size: 16px;
+    color: white;
+    padding-left: 15px;
+}
+
+.glaven8-12 {
+    width: 100%;
+    height: 20px;
+    padding-top: 20px;
+
+}
+
+.glaven8-12 span {
+    font-size: 16px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 83px;
+}
+
+.glaven8-13 {
+    width: 100%;
+    height: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.glaven8-13 span {
+    font-size: 16px;
+    color: white;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+.glaven8-2 {
+    width: 1px;
+    height: 228px;
+    background-color: #707070;
+}
+
+
+
+
+
+
+
+.glaven8-3 {
+    width: 639px;
+    height: 100%;
+}
+
+.glaven8-3 h3 {
+    font-size: 22px;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    padding-top: 61px;
+    text-align: center;
+}
+
+.glaven8-31 {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.glaven8-31 ul {
+    padding-left: 50px;
+    padding-top: 9px;
+}
+
+.glaven8-31 ul li p {
+    font-size: 16px;
+    color: white;
+}
+
+.glaven8-31 ul li {
+    color: #FCE302;
+    padding-top: 25px;
+}
+
+
+.glaven8-31 button {
+    list-style: none;
+    background: none;
+    font-size: 16px;
+    border: none;
+    color: white;
+}
+
+.glaven8-31 button:hover {
+    cursor: pointer;
+    color: #FCE302;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+.glaven8-4 {
+    width: 1px;
+    height: 228px;
+    background-color: #707070;
+}
+
+.glaven8-5 {
+    width: 639px;
+    height: 100%;
+}
+
+.glaven8-5 h3 {
+    font-size: 22px;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    padding-top: 61px;
+    text-align: center;
+}
+
+.glaven8-51 {
+    height: 40px;
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    margin-top: 50px;
+}
+
+.socijalnimed1 {
+    width: 40px;
+    height: 100%;
+    background-image: url(imgg/facebook-logo-button.png);
+}
+.socijalnimed1:hover {
+    cursor: pointer;
+}
+
+.socijalnimed2 {
+    width: 40px;
+    height: 100%;
+    background-image: url(imgg/snapchat.png);
+    margin: 0 36px 0 36px;
+}
+.socijalnimed2:hover {
+    cursor: pointer;
+}
+
+.socijalnimed3 {
+    width: 40px;
+    height: 100%;
+    background-image: url(imgg/instagram.png);
+}
+.socijalnimed3:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 950px) {
+    .menu {
+        width: 100%;
+    }
+    .menu-opcii2 {
+        display: none;
+    }
+
+    .ceni {
+        width: 100%;
+    }
+
+    .ceni h3 {
+        font-size: 16px;
+    }
+    
+    .tr1 {
+        font-size: 12px;
+    }
+    .glaven8-1 h3 {
+        font-size: 16px;
+    }
+    .glaven8-3 h3 {
+        font-size: 16px;
+    }
+    .glaven8-5 h3 {
+        font-size: 16px;
+    }
+
+
+    
+}
+
+@media (max-width: 650px) {
+    .glaven8 {
+        height: 100%;
+        width: 100%;
+        background-color: #3D3D37;
+        display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: center;
+	    align-content: stretch;
+    }
+    .glaven8-1 {
+        width: 100%;
+    }
+    .glaven8-3 {
+        width: 100%;
+    }
+    .glaven8-5 {
+        width: 100%;
+    }
+
+
+    .glaven8-2 {
+        display: none;
+    }
+    .glaven8-4 {
+        display: none
+    }
+}
+
+@media (max-width: 450px) {
+    .ceni h3 {
+        font-size: 12px;
+    }
+    
+    .tr1 {
+        font-size: 8px;
+    }
+}
